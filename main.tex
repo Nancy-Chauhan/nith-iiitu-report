@@ -1,0 +1,315 @@
+\documentclass[a4paper,12 pt,oneside]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[compact]{titlesec}
+\usepackage{varwidth}
+\usepackage{multicol}
+\usepackage[hidelinks]{hyperref}
+\usepackage[nottoc]{tocbibind}
+\renewcommand\bibname{References}
+
+
+\titleformat{\chapter}{\bfseries\huge\centering}{}{0pt}{}{\huge}
+\titlespacing*{\chapter}{0pt}{-60pt}{40pt}
+
+\title{Sphere Knowledge Engine}
+
+\author{Nancy Chauhan (IIITU5214)\\
+Utkarsh Bajpai (IIITU15218)\\
+}
+
+\date{December 2018}
+
+\begin{document}
+
+\frontmatter
+\pagestyle{plain}
+
+\begin{titlepage}
+    \begin{center}
+
+        \Huge{\textbf{Project Name }}
+ 
+        \vspace{0.5cm}
+        
+        \normalsize
+        \textit{
+        Major project report submitted in partial fulfilment of the requirement for the degree of}
+        
+        \vspace{10pt}
+        
+        Bachelor of Technology\\
+        in\\
+        Electronics and Communication Engineering
+        
+         \vspace{1 cm}
+        \includegraphics[height=5cm]{images/iiituna.jpg}
+        
+          \vspace{1 cm}
+        \textit{Submitted by}
+        
+        \vspace{5pt}
+        
+        \begin{tabular}{c c}
+            Nancy Chauhan & (IIITU15214)\\
+            Nancy Chauhan & (IIITU15218)\\
+        \end{tabular}
+ 
+        \vspace{5pt}
+        8\textsuperscript{th} Semester
+ 
+        \vspace{1cm}
+ 
+        Under the guidance of
+        
+        \vspace{5pt}
+        
+        \textbf{Mr. Satish Kumar}\\
+        Assistant Professor, ECE Department\\
+        Indian Institute of Information Technology Una
+ 
+        \vspace{2.35cm}
+        
+        \large
+ 
+        Department of Electronics and Communication Engineering\\
+        Indian Institute of Information Technology Una\\
+      
+    \end{center}
+\end{titlepage}
+
+\chapter*{\centering Certificate}
+
+This is to certify that the project titled \textbf{Project Name} is submitted by \textbf{Nancy Chauhan, Nancy Chauhan} bearing registration numbers \textbf{IIITU15214, IIITU15214} respectively to the \textit{Department of Electronics and Communication Engineering, Indian Institute of Information Technology Una}. It is a record of bonafide research work to award partial Bachelor’s Degree in Technology in Electronics and Communication Engineering under \textit{Indian Institue of Information Technology Una}.
+
+\vspace{2cm}
+
+\noindent\textbf{Date:}
+
+\vspace{1cm}
+
+\begin{multicols}{2}
+    \noindent
+    \begin{varwidth}{\textwidth}
+    \textbf{Mentor:}
+    \end{varwidth}
+    
+    \columnbreak
+    
+    \hfill
+    \begin{varwidth}{\textwidth}
+        \textbf{Mr. Satish Kumar}\\
+        Assistant Professor, Dept. of ECE\\
+        IIIT UNA
+        
+        \end{varwidth}
+    
+    
+
+\end{multicols}
+
+\chapter*{\centering Declaration}
+
+We, declare that the work contained in Report is original and has been done by us under the general supervision of our supervisor. The work has not been submitted to any other institute for any degree or diploma. We have followed the guidelines provided by the institute in writing the report. We have conformed to the norms and guidelines given in the Ethical Code of Conduct of the institute. Whenever we have used materials (data, theoretical analysis, figures etc) from the other sources,  we have given due credits to them by citing them in the text of the report and giving their details in the references. Whenever we have quoted written materials from other sources, we have put them under quotation marks and given due credit to the sources by citing them and giving required detail references.
+
+\vspace{2cm}
+\hfill\begin{varwidth}{\textwidth}
+Nancy Chauhan\\
+Regd. No: IIITU15214
+
+
+\vspace{2.0cm}
+
+Nancy Chauhan\\
+Regd. No: IIITU15214
+
+\end{varwidth}
+
+\chapter*{\centering Acknowledgement}
+
+It is our privilege and solemn duty to express our deepest sense of gratitude to Mr. Satish Kumar, Assistant Professor at the Department of Electronics and Communication, under whose able guidance we carried out this work. We are indebted to him for his invaluable supervision, heart full cooperation, timely aid and advice till the completion of the report in spite of her pressing engagements.
+
+We wish to record our sincere gratitude to respected Director Sir
+Dr.Selva Kumar, for allowing our little mind to think in different directions and help us broaden horizons by making available all the necessary amenities needed in the working of our
+project.
+
+We take this opportunity to express our hearty thanks to all those who helped ours in the completion of our project work. We are very grateful to the author of various research papers, for helping us become aware of the research currently ongoing in the field.
+
+We are very thankful to our parents for their constant support and love. Last, but not least, we would like to thank our classmates for their valuable comments, suggestions and unconditional support.
+
+\chapter*{Abstract}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\textit{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. }
+
+\textit{\textbf{Keywords:} Keyword 1, Keyword 2, Keyword 3, Keyword 4}
+
+
+\tableofcontents
+
+\listoffigures
+
+\mainmatter
+
+\pagestyle{plain}
+
+\chapter{Introduction}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna\cite{abrol2001navigating}.culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\
+\\
+
+For instance, 
+
+\begin{enumerate}
+    \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+    \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+\end{enumerate}
+
+\pagebreak
+
+\chapter{A Review of Existing Solutions}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\section{Subtopic 1}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+\section{Subtopic 2}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\section{Subtopic 3}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+\chapter{Components}
+
+\section{Subtopic 1}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+
+ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{images/pg.png}
+    \caption{PostgreSQL Architecture}
+    \label{fig:pg}
+\end{figure}
+
+\section{Subtopic 2}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\section{Subtopic 3}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\section{Subtopic 4}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\chapter{Implementation}
+
+\section{Subtopic 1}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\cite{spacy}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{images/Show-all-employees.png}
+    \caption{Parse tree for "Show all employees"}
+    \label{fig:example_2}
+\end{figure}
+
+\subsection{Subtopic 2}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{images/preprocessing.jpg}
+    \caption{Entity extraction}
+    \label{fig:preprocessing}
+\end{figure}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\subsubsection{Subsubtopic 1}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\subsubsection{SubSubtopic}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\chapter{Working}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+The project works in three phases:
+\begin{enumerate}
+    \item Point 1
+    \item Point 2
+    \item Point 3
+\end{enumerate}
+
+\section{Subtopic 1 }
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{flowchart_working.png}
+    \caption{Working}
+    \label{fig:working}
+\end{figure}
+
+\section{Subtopic 3}
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+\begin{center}
+\begin{tabular}{ |name|id|radius|temperature } 
+ \hline
+ Delhi & 1 & 40 & 37 \\ 
+ Cuttack & 2 & 20 & 39 \\ 
+ \hline
+\end{tabular}
+\end{center}\\
+Triplets:\\
+ Delhi $|$radius 40; Delhi $|$ temperature $|$ 37 \\
+ Cuttack $|$ radius 20; Cuttack $|$ temperature $|$ 39
+\\
+\\
+Text:\\
+Delhi, with a radius of 40, has a temperature of 37
+
+
+\chapter{Future scope}
+
+Our solution is far from state-of-the-art and requires several improvements. 
+
+\section{Subtopcic 1}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\section{Subtopic 2}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+\chapter{Conclusion}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+\end{document}
