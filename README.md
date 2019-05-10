@@ -1,6 +1,6 @@
-# IIIT UNA Major project Sample Latex Class
+# IIIT UNA / NITH Major project Sample Latex Class
 
-This is sample Latex Class file for IIIT UNA Major Project Report Format. It can be directly used by IIITians to make their project Reports.The main aim of this project is to ease the process of report making.<strong> Little Knowledge of Latex is recommended</strong>
+This is sample Latex Class file for IIIT UNA / NITH Major Project Report Format. It can be directly used by IIITians to make their project Reports.The main aim of this project is to ease the process of report making.<strong> Little Knowledge of Latex is recommended</strong>
 
 <strong>Create you own Project report</strong>
 
