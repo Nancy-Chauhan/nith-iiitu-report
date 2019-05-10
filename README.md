@@ -1,11 +1,22 @@
-# IIIT UNA / NITH Major project Sample Latex Class
+# NITH-IIITU-REPORT
 
-This is sample Latex Class file for IIIT UNA / NITH Major Project Report Format. It can be directly used by IIITians to make their project Reports.The main aim of this project is to ease the process of report making.<strong> Little Knowledge of Latex is recommended</strong>
+A Repository to hold some standard templates and samples for NITH/IIITU reports.
 
-<strong>Create you own Project report</strong>
+## Front Page Examples
 
-  1) Fork and Clone the repository 
-  
-  2) You can upload the cloned project on Overleaf https://www.overleaf.com/ or you can setup the latex environment on your PC, you can install any latex software available according to your distribution.In linux, you can use texMaker, for instance,or     Latexila. You can also do it in commandline by using tools like latexmk, or pdflatex. Additionally according to your distribution, you may need to install few packages to setup the whole latex environment for you.
-  
-  3) You can modify main.tex and references.bib and images folder according to your content.
+![nith](extra/nith_page.png) ![iiitu](extra/iiitu_page.png)
+
+## **Create you own Project report**
+
+  - Fork and Clone the repository
+
+  - You can upload the cloned project on [Overleaf](https://www.overleaf.com) or you can setup the latex environment on your PC. In linux, you can use texMaker or Latexila or do it in commandline by using tools like latexmk or pdflatex
+
+  - You can modify main.tex and references.bib and images folder according to your content.
+
+
+### About Us
+
+Author: [Nancy Chauhan](https://github.com/Nancy-Chauhan/)
+
+Collaborator : [Srb Cheema](https://github.com/srbcheema1/)
