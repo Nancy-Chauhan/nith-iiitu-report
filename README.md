@@ -17,6 +17,8 @@ A Repository to hold some standard templates and samples for NITH/IIITU reports.
 
 ### About Us
 
+Heavily inspired from Amitosh Swain Mahapatra ( https://github.com/agathver ) 
+
 Author: [Nancy Chauhan](https://github.com/Nancy-Chauhan/)
 
 Collaborator : [Srb Cheema](https://github.com/srbcheema1/)
