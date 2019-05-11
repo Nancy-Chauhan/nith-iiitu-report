@@ -17,7 +17,7 @@ A Repository to hold some standard templates and samples for NITH/IIITU reports.
 
 ### About Us
 
-Heavily inspired from Amitosh Swain Mahapatra ( https://github.com/agathver ) 
+Adapted from [Project Report Template](https://github.com/agathver/cetb-project-report-template) by [Amitosh Swain Mahapatra](https://github.com/agathver) 
 
 Author: [Nancy Chauhan](https://github.com/Nancy-Chauhan/)
 
